@@ -1,1 +1,64 @@
-<meta http-equiv="refresh" content="0;url=/admin">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Admin</title>
+
+		
+
+		<link rel="modulepreload" href="/./_app/start-64840dc4.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-8fc56471.js">
+		<link rel="modulepreload" href="/./_app/pages/admin/__layout.reset.svelte-a802539f.js">
+		<link rel="modulepreload" href="/./_app/pages/admin/index.svelte-35dba55a.js">
+		<link rel="stylesheet" href="/./_app/assets/start-f024e47a.css">
+
+		<script type="module">
+			import { start } from "/./_app/start-64840dc4.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/pages/admin/__layout.reset.svelte-a802539f.js"),
+						import("/./_app/pages/admin/index.svelte-35dba55a.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/admin",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body class="min-h-screen bg-gray-300 dark:bg-gray-800">
+		<div id="svelte">
+
+
+<a href="/">Back to site</a>
+
+<nav><a href="/admin">Dashboard</a>
+	<a href="/admin/reports">Reports</a></nav>
+
+
+
+<h1>Hello Admin!</h1>
+
+<div class="bg-gray-800"><h1 class="text-gray-300">This is where the admin panel will be.</h1></div>
+
+
+
+	
+</div>
+	</body>
+</html>
