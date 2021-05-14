@@ -10,12 +10,14 @@
 
 </script>
 
-<nav>
-	<a href="/">Home</a>
-	<a href="/about">About</a>
-	<a href="/settings">Settings</a>
-	<a href="/admin">Admin</a>
-	<a href="/login">Login</a>
-</nav>
+<div>
+	<nav>
+		<a href="/">Home</a>
+		<a href="/about">About</a>
+		<a href="/settings">Settings</a>
+		<a href="/admin">Admin</a>
+		<a href="/login">Login</a>
+	</nav>
+</div>
 
 <slot />

@@ -1,55 +1,48 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
 
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Edge",
-            "type": "edge",
-            "request": "launch",
-            "url": "http://localhost/"
-        },
-        {
-            "name": "Edge with xDebug",
-            "type": "edge",
-            "request": "launch",
-            "url": "http://xdebug.localhost/"
-        },
-        {
-            "name": "Listen for XDebug",
-            "type": "php",
-            "request": "launch",
-            "port": 9000,
-            // server -> local
-            "pathMappings": {
-                "/var/www/app": "${workspaceRoot}/app"
-            },
-            "ignore": ["**/vendor/**/*.php"]
-        },
-        {
-            "name": "Firefox",
-            "type": "firefox",
-            "request": "launch",
-            "reAttach": true,
-            "url": "http://localhost/",
-            "webRoot": "/"
-        },
-        {
-            "name": "Chrome",
-            "type": "chrome",
-            "request": "launch",
-            "url": "http://localhost/",
-            "webRoot": "/"
-        },
-        {
-            "name": "Launch currently open script",
-            "type": "php",
-            "request": "launch",
-            "program": "${file}",
-            "cwd": "${fileDirname}",
-            "port": 9000
-        }
-    ]
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Dev",
+			"command": "pnpm dev",
+			"request": "launch",
+			"type": "node-terminal"
+		},
+		{
+			"name": "Electron",
+			"command": "pnpm dev-app",
+			"request": "launch",
+			"type": "node-terminal"
+		},
+		{
+			"name": "Edge",
+			"type": "edge",
+			"request": "launch",
+			"url": "http://localhost:3000"
+		},
+		{
+			"name": "Edge with xDebug",
+			"type": "edge",
+			"request": "launch",
+			"url": "http://xdebug.localhost/"
+		},
+		{
+			"name": "Firefox",
+			"type": "firefox",
+			"request": "launch",
+			"reAttach": true,
+			"url": "http://localhost:3000",
+			"webRoot": "/"
+		},
+		{
+			"name": "Chrome",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:3000",
+			"webRoot": "/"
+		}
+	]
 }

@@ -11,6 +11,7 @@
 
 <div class="bg-white dark:bg-gray-800">
 	<p class="text-gray-600 dark:text-gray-300">
-		Simulate an environment for learning and development like a 🎹 symphony.
+		Dedicated to the study of human mechanisms and their replacement by mechanical or electronic
+		systems.
 	</p>
 </div>
