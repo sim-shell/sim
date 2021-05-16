@@ -1,6 +1,4 @@
-# Scorpion Guide
-
-Getting started with scorpion.
+# Getting Started
 
 https://svelte.dev/blog/svelte-3-rethinking-reactivity
 
@@ -31,7 +29,6 @@ https://svelte.dev/blog/whats-the-deal-with-sveltekit
 - https://insomnia.rest
 - https://www.diagrams.net (https://github.com/jgraph/drawio-desktop)
 - https://sequel-ace.com (mac)
-- https://yarnpkg.com
 - https://nodejs.org/en/ (>16)
 - https://pnpm.io/
 
