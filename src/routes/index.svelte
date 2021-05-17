@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>sim.sh</title>
+	<title>SIM</title>
 </svelte:head>
 
 <h1>Hello {name}!</h1>
