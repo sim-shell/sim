@@ -1,0 +1,18 @@
+[package]
+name = "simsh"
+version = "0.1.0"
+authors = ["Brett Wilcox <brett@scorpion.io>"]
+edition = "2018"
+description = "Command Line Interface for the SIM project."
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://sim.sh"
+repository = "https://github.com/sim-shell/sim"
+keywords = ["cli", "sim"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+scorpion = "0.1"
+structopt = "0.3"

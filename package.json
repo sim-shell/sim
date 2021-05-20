@@ -5,11 +5,14 @@
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
 		"preview": "svelte-kit preview",
-		"deploy": "pnpm build && npx gh-pages -d build -t true",
+		"publish": "pnpm build && npx gh-pages -d build -t true",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"test": "jest",
 		"format": "prettier --write --plugin-search-dir=. .",
-		"dev-app": "electron ."
+		"app": "electron .",
+		"app-build": "",
+		"up": "docker-compose up -d",
+		"stop": "docker-compose stop"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "next",
