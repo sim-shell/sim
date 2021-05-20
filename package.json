@@ -5,7 +5,7 @@
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
 		"preview": "svelte-kit preview",
-		"publish": "pnpm build && npx gh-pages -d build -t true",
+		"deploy": "pnpm build && npx gh-pages -d build -t true",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"test": "jest",
 		"format": "prettier --write --plugin-search-dir=. .",
