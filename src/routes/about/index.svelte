@@ -8,4 +8,7 @@
 </svelte:head>
 
 <h1>About sim.sh</h1>
-<p>TODO...</p>
+<p>
+	Simulation shell is dedicated to the study of human mechanisms and their replacement by mechanical
+	or electronic systems.
+</p>
