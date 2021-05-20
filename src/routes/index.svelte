@@ -10,8 +10,6 @@
 <h1>Hello {name}!</h1>
 
 <div class="bg-white dark:bg-gray-800">
-	<p class="text-gray-600 dark:text-gray-300">
-		Dedicated to the study of human mechanisms and their replacement by mechanical or electronic
-		systems.
-	</p>
+	<p class="text-gray-600 dark:text-gray-300">Coming soon.</p>
+	<a href="https://github.com/sim-shell/sim">GitHub</a>
 </div>
