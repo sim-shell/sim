@@ -7,7 +7,7 @@ project = "sim"
 # labels = { "foo" = "bar" }
 
 # An application to deploy.
-app "web" {
+app "node" {
     # Build specifies how an application should be deployed. In this case,
     # we'll build using a Dockerfile and keeping it in a local registry.
     build {
