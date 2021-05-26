@@ -1,0 +1,62 @@
+  ____ ___ __  __       _     
+ / ___|_ _|  \/  |  ___| |__  
+ \___ \| || |\/| | / __| '_ \ 
+  ___) | || |  | |_\__ \ | | |
+ |____/___|_|  |_(_)___/_| |_|
+
+CONGRATULATIONS, you found our humans.txt file!
+
+Contacts:
+
+  hi@sim.sh       Say hello to your friendlyt admins of the simulation.
+  bw@sim.sh       The guy making things and stuff.
+
+────────────────────────────────────────────────────────────────────────────────
+
+Welcome to *sim shell* v42.∞.∞
+
+Expansion has now begun throughout all of space.
+
+Your memory is going to be *wiped* and a starting location chosen for you.
+
+Your karma meter is currently neutral. Dropping below an unspecified value
+will have negative effects.
+
+The ***goal*** of this ***quest*** is to find ***nirvana***...
+
+You have until entropy runs out.
+
+Good luck.
+
+────────────────────────────────────────────────────────────────────────────────
+
+/*
+ * God uses machine code...
+ * Fibonacci function
+8B542408 83FA0077 06B80000 0000C383
+FA027706 B8010000 00C353BB 01000000
+B9010000 008D0419 83FA0376 078BD989
+C14AEBF1 5BC3
+```
+
+RAND=[[202007170943 The Fibonacci Sequence]]
+
+────────────────────────────────────────────────────────────────────────────────
+
+god@localhost:~$ sudo su -
+    [sudo] password for god: 
+
+root@localhost:~# whoami
+    root
+
+root@localhost:~# cd /opt/simsh
+
+root@localhost:/opt/simsh/# ./configure && make && make install
+    Executing tasks...
+    Complete!
+
+root@localhost:/opt/simsh/# bigbang --run --nobackup --rand %RAND% --manyworlds
+    Generating story, character, and location.
+    Done.
+
+See ya later space cowboy!
